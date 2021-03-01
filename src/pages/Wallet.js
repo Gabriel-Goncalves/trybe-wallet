@@ -166,7 +166,13 @@ class Wallet extends React.Component {
   }
 
   render() {
-    const { currencyTypes, isLoading, currency, value, description } = this.state;
+    const {
+      currencyTypes,
+      isLoading,
+      currency,
+      value,
+      description,
+    } = this.state;
     return (
       <>
         <Header />
@@ -195,7 +201,7 @@ class Wallet extends React.Component {
             <button
               type="button"
               onClick={ this.handleClick }
-              className="btn btn-primary"
+              className="btn btn-primary my-btn"
             >
               Adicionar despesa
             </button>

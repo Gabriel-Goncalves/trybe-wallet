@@ -2,6 +2,10 @@ td , th {
   text-align: center;
 }
 
+tr:hover {
+  background-color: lightgray;
+}
+
 .div-table {
   margin: 15px 2%;
   width: 96%;

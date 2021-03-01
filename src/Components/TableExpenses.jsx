@@ -33,7 +33,7 @@ class TableExpenses extends React.Component {
         <td>{description}</td>
         <td>{tag}</td>
         <td>{method}</td>
-        <td>{value}</td>
+        <td>{parseFloat(value).toFixed(2)}</td>
         <td>{name}</td>
         <td>{parseFloat(ask).toFixed(2)}</td>
         <td>{parseFloat(value * ask).toFixed(2)}</td>
