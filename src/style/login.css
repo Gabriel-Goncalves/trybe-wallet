@@ -1,0 +1,11 @@
+.button-loggin {
+  margin-top: 25px;
+}
+
+.form-flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 110px;
+}
